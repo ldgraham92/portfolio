@@ -1,4 +1,4 @@
-let badWords = ["feldercarb", "frach", "skinjob", "vulgarcarb", "frack"]; // Array of words to not allow in
+let badWords = ["feldercarb", "frach", "skinjob", "vulgarcarb", "frack", "vulgacarb"]; // Array of words to not allow in
 let badWordCount = 0;
 
 function populateEmail() { // Opens default mail client with pre-filled information from contact form
