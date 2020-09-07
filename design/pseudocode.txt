@@ -1,0 +1,37 @@
+BACKGROUND:
+Dark-ish Gradiant Background?
+
+FONTS:
+
+Layout:
+Mobile First
+Tablet/Desktop layout may work together, revisit Tablet once desktop is designed to figure out if one layout works for both
+
+
+Hints:
+Use the HTML validator to check your HTML. Errors found by this validator may take a considerable amount of time to fix if you leave it all to the end. I recommend validating your code frequently.
+Use the Accessibility validator to make sure your code works for users who have disabilities. Errors found by this validator may take a considerable amount of time to fix if you leave it all to the end. I recommend validating your code frequently.
+Use the CSS validator to check your CSS. Errors found by this validator may take a considerable amount of time to fix if you leave it all to the end. I recommend validating your code frequently.
+Your mobile first design should not need a css media query for the mobile version. It should only need media queries for the desktop version.
+C.A.R.P (Contrast, Alignment, Repetition, and Proximity) tips can be found here and in other places all over the web.
+Aaron’s recommended HTML/CSS workflow for this project goes:
+Write your resume in MS Word
+Decide how many pages you want and build a sitemap
+For each page draw 5 wireframes and pick your favourite
+Draw wireframes for mobile and desktop
+Use pencil and paper so you can sketch out ideas quickly
+For each page you will want to work in the following order (largest to smallest)
+Layout
+Background
+Typography
+Visual elements (images, buttons, flourishes, etc.)
+One-off elements and CSS bugs
+
+
+Additional Considerations:
+Ensure you’re following modern and good code practices.
+Code is well-structured (one entry point, one exit point per code block), no returns (other than at the end of a method), breaks or continues are used.
+When selecting elements with JavaScript, if a reference to a more direct parent exists, that is used for the selection rather than the document node (myList.querySelector() vs document.querySelector).
+Javascript named methods contain a docstring comment describing inputs, outputs and purpose.
+ES6 techniques are used over ES5 techniques (for-of over array.forEach, arrow functions over anonymous functions, etc).
+Code avoids hardcoded values where possible, using constants values instead.

@@ -1,0 +1,86 @@
+.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3, .my-info, h3.links, .objective, .education, .skills, .about-me, .job, .roles, html, .nav-bar, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form, .additional-1, .additional-2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    font-family: 'Podkova', serif;
+}
+
+.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3, h3.links, .objective, .education, .skills, .about-me, .job, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form{
+    font-size: 1.9rem;
+    letter-spacing: .125rem;
+}
+#display-error{
+    font-size: 1rem;
+    letter-spacing: .125rem;
+}
+.my-info{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+}
+.links, .objective, .education, .skills, .about-me, .roles{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.job {
+    font-size: 1.35rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.content{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.1rem;
+}
+
+.my-links, .info-list{
+    list-style-type: none;
+}
+
+.center{
+    font-size: 1.2rem;
+}
+footer.center{
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3{
+    text-decoration: underline;
+}
+/* DESKTOP */
+@media screen and (min-width: 1024px){
+    div ul, div ul > li{
+        font-size: 1.25rem;   
+    }
+    .resume-body{
+        max-width: 100%;
+    }
+    .content{
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0.1rem;
+        font-size: 15px;
+    }
+    h3.job{
+        font-size: 30px;
+    }
+    .test{
+        font-size: 16px;
+        text-align: left;
+        list-style-type: none;
+        margin-bottom: 40px;
+    }
+    .roles, .job{
+        text-align: left;
+    }
+    .links, .objective, .education, .skills, .about-me, .roles{
+        font-size: 1.9rem;
+    }
+}

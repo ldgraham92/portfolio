@@ -1,0 +1,258 @@
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+  }
+
+html{
+    background: rgb(13,12,12);
+    background: linear-gradient(174deg, rgb(34, 31, 31) 0%, rgba(47,46,46,1) 65%, rgba(0,72,87,1) 100%) fixed;
+    color: white;
+    }
+
+body{
+    padding-top: 90px;
+    margin-left: 0px;
+}
+.nav-bar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: rgb(0, 72, 87, 0.9);
+    text-align: center;
+}
+
+.nav-bar > li {
+      display: inline-block;
+      text-align: center;
+ 
+  }
+
+.nav-bar > li a{
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+li a:hover{
+    background-color: #111;
+}
+.my-links li a:hover{
+    background-color: transparent;
+}
+
+.nav-logo{
+    float: left;
+    max-width: 64px;
+    max-height: 64px;
+    padding-top: 10px;
+}
+.active{
+    padding: 12px 12px;
+    background: #111;
+}
+
+img{
+    max-width: 80%;
+}
+
+.center, .additional-1, .additional-2, .project-1, .project-2, .project-3, .main-body-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-position: inside;
+}
+.additional-1, .additional-2, .project-2, .project-3, footer{
+    margin-top: 50px;
+}
+
+.project-1, .project-2, .project-3{
+    padding-bottom: 10px;
+}
+
+.content{
+    padding-top: 15px;
+}
+.main-body-content{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.my-links > li{
+    display: inline;  
+}
+
+li img{
+    max-width: 48px;
+    max-height: 48px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+h3:nth-of-type(7){
+    margin-top: 0px;
+}
+.formWrapper {
+    text-align: center;
+    padding: 15px;
+
+}
+.formWrapper h2{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.formWrapper .input-field{
+    margin-bottom: 10px;
+}
+
+.formWrapper .input-field input[type="text"], .formWrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 90%;
+    padding: 5px;
+}
+
+.formWrapper textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formWrapper .btn input{
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#displayError{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    display: inline-block;
+  }
+
+.resume-margin{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    margin-top: 9px;
+}
+
+.about-me, .skills, .education, .objective{
+    margin-top: 50px;
+}
+.index-main-div p img{
+    margin-top: 10px;
+}
+
+.homepage-icons{
+    max-width: 96px;
+    max-height: 96px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* TABLET */
+@media screen and (min-width: 600px){
+.projects, .education-div-container, .skills-div, .skills-div-2{
+    display: flex;
+    flex-direction: row;
+}
+.add-1-div, .job-1{
+    order: 1;
+}
+.add-2-div, .job-2{
+    order: 2;
+}
+.objective-div, .education-div-container{
+    margin-bottom: 40px;
+}
+.skills-div, .skills-div-2{
+    justify-content: center;
+    
+}
+.index-personal-div{
+    display: flex;
+    flex-direction: column;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px){
+
+.skills-div-desktop{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+span{
+    text-decoration: underline;
+}
+.about-me{
+    margin-top: 100px;
+}
+.education-div-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.job-1, .job-2, .job-3, .job-4, .job-5, .job-6{
+    margin-bottom: 80px;
+}
+footer.center{
+    margin-top: 75px;
+}
+#ind-per-div{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+.dashed-border{
+    border-bottom-style: inset;
+    border-bottom-width: 2px;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.index-main-div p img{
+    max-width: 75%;
+}
+}

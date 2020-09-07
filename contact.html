@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindsey Graham - Contact Me</title>
+
+    <script src="https://kit.fontawesome.com/ebfe77ac9e.js" crossorigin="anonymous"></script> <!-- FontAwesome Icons -->
+    <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/type.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class='screen-reader-text'>Lindsey Graham's Portfolio / Resume Site</h1>
+
+    <h2 class='screen-reader-text'>Navigation</h2>
+    <ul class='nav-bar'>
+        <li class='nav-logo'><img src='/img/logoplaceholder.png' alt='Logo'></li>
+        <li><a href=index.html>Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li class='active' id='nav-contact'><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class='main-body'>
+        <div class="formWrapper">
+            <h2>Contact Me</h2>
+            <div id="displayError">
+
+            </div>
+            <form id="myform" onsubmit="return sendEmail();">
+                <div class="input-field">
+                    <label for="name" class="screen-reader-text">Name</label>
+                    <input type="text" placeholder="Enter Your Name" id="name">                    
+                </div>
+                <div class="input-field">
+                    <label for="subject" class="screen-reader-text">Subject</label>
+                    <input type="text" placeholder="Email Subject" id="subject">                    
+                </div>
+                <div class="input-field">
+                    <label for="email" class="screen-reader-text">Email</label>
+                    <input type="text" placeholder="Enter Your Email" id="email">                    
+                </div>
+                <div class="input-field">
+                    <label for="inquiry" class="screen-reader-text">Inquiry</label>
+                    <textarea placeholder="Enter Your Inquiry" id="inquiry"></textarea>                    
+                </div>
+                <div class="btn">
+                    <label for="send-email" class="screen-reader-text">Send Email Button</label>
+                    <input type="submit" value="Send Email" id="send-email">
+                    <label for="clear-form" class="screen-reader-text">Clear Form Button</label>
+                    <input type="reset" value="Clear Form" id="clear-form">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer class='center'>
+        &copy; Lindsey Graham 2020 - TECHCareers
+    </footer>
+</body>
+
+</html>
