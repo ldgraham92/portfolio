@@ -1,4 +1,4 @@
-.screen-reader-text {
+.screenReaderText {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -14,14 +14,14 @@
 html{
     background: rgb(13,12,12);
     background: linear-gradient(174deg, rgb(34, 31, 31) 0%, rgba(47,46,46,1) 65%, rgba(0,72,87,1) 100%) fixed;
-    color: white;
+    color: #ffffff;
     }
 
 body{
     padding-top: 90px;
     margin-left: 0px;
 }
-.nav-bar{
+.navBar{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -33,14 +33,14 @@ body{
     text-align: center;
 }
 
-.nav-bar > li {
+.navBar > li {
       display: inline-block;
       text-align: center;
  
   }
 
-.nav-bar > li a{
-    color: white;
+.navBar > li a{
+    color: #ffffff;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
@@ -51,11 +51,11 @@ body{
 li a:hover{
     background-color: #111;
 }
-.my-links li a:hover{
+.myLinks li a:hover{
     background-color: transparent;
 }
 
-.nav-logo{
+.navLogo{
     float: left;
     max-width: 64px;
     max-height: 64px;
@@ -70,30 +70,30 @@ img{
     max-width: 80%;
 }
 
-.center, .additional-1, .additional-2, .project-1, .project-2, .project-3, .main-body-content{
+.center, .additional1, .additional2, .project1, .project2, .project3, .mainBodyContent{
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     list-style-position: inside;
 }
-.additional-1, .additional-2, .project-2, .project-3, footer{
+.additional1, .additional2, .project2, .project3, footer{
     margin-top: 50px;
 }
 
-.project-1, .project-2, .project-3{
+.project1, .project2, .project3{
     padding-bottom: 10px;
 }
 
 .content{
     padding-top: 15px;
 }
-.main-body-content{
+.mainBodyContent{
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-.my-links > li{
+.myLinks > li{
     display: inline;  
 }
 
@@ -118,11 +118,11 @@ h3:nth-of-type(7){
     letter-spacing: 2px;
 }
 
-.formWrapper .input-field{
+.formWrapper .inputField{
     margin-bottom: 10px;
 }
 
-.formWrapper .input-field input[type="text"], .formWrapper textarea{
+.formWrapper .inputField input[type="text"], .formWrapper textarea{
     border: 1px solid #e0e0e0;
     width: 90%;
     padding: 5px;
@@ -154,13 +154,13 @@ h3:nth-of-type(7){
     display: inline-block;
   }
 
-.resume-margin{
+.resumeMargin{
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
 }
 
-.links-div{
+.linksDiv{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -171,14 +171,14 @@ h3:nth-of-type(7){
     margin-top: 9px;
 }
 
-.about-me, .skills, .education, .objective{
+.aboutMe, .skills, .education, .objective{
     margin-top: 50px;
 }
-.index-main-div p img{
+.indexMainDiv p img{
     margin-top: 10px;
 }
 
-.homepage-icons{
+.homepageIcons{
     max-width: 96px;
     max-height: 96px;
     display: flex;
@@ -189,24 +189,24 @@ h3:nth-of-type(7){
 
 /* TABLET */
 @media screen and (min-width: 600px){
-.projects, .education-div-container, .skills-div, .skills-div-2{
+.projects, .educationDivContainer, .skillsDiv, .skillsDiv2{
     display: flex;
     flex-direction: row;
 }
-.add-1-div, .job-1{
+.add1Div, .job1{
     order: 1;
 }
-.add-2-div, .job-2{
+.add2Div, .job2{
     order: 2;
 }
-.objective-div, .education-div-container{
+.objectiveDiv, .educationDivContainer{
     margin-bottom: 40px;
 }
-.skills-div, .skills-div-2{
+.skillsDiv, .skillsDiv2{
     justify-content: center;
     
 }
-.index-personal-div{
+.indexPersonalDiv{
     display: flex;
     flex-direction: column;
 }
@@ -214,7 +214,7 @@ h3:nth-of-type(7){
 /* DESKTOP */
 @media screen and (min-width: 1024px){
 
-.skills-div-desktop{
+.skillsDivDesktop{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: baseline;
@@ -223,15 +223,15 @@ h3:nth-of-type(7){
 span{
     text-decoration: underline;
 }
-.about-me{
+.aboutMe{
     margin-top: 100px;
 }
-.education-div-container{
+.educationDivContainer{
     display: flex;
     justify-content: space-evenly;
 }
 
-.job-1, .job-2, .job-3, .job-4, .job-5, .job-6{
+.job1, .job2, .job3, .job4, .job5, .job6{
     margin-bottom: 80px;
 }
 footer.center{
@@ -244,7 +244,7 @@ footer.center{
     }
 }
 
-.dashed-border{
+.dashedBorder{
     border-bottom-style: inset;
     border-bottom-width: 2px;
     width: 25vw;
@@ -252,7 +252,7 @@ footer.center{
     margin-right: auto;
     margin-bottom: 80px;
 }
-.index-main-div p img{
+.indexMainDiv p img{
     max-width: 60%;
 }
 }

@@ -19,43 +19,43 @@
 </head>
 
 <body>
-    <h1 class='screen-reader-text'>Lindsey Graham's Portfolio / Resume Site</h1>
+    <h1 class='screenReaderText'>Lindsey Graham's Portfolio / Resume Site</h1>
 
-    <h2 class='screen-reader-text'>Navigation</h2>
-    <ul class='nav-bar'>
-        <li class='nav-logo'><img src='img/logoplaceholder.png' alt='Logo'></li>
+    <h2 class='screenReaderText'>Navigation</h2>
+    <ul class='navBar'>
+        <li class='navLogo'><img src='/img/logoplaceholder.png' alt='Logo'></li>
         <li><a href=index.html>Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="resume.html">Resume</a></li>
-        <li class='active' id='nav-contact'><a href="contact.html">Contact</a></li>
+        <li class='active'><a href="contact.html">Contact</a></li>
     </ul>
-    <div class='main-body'>
+    <div class='mainBody'>
         <div class="formWrapper">
             <h2>Contact Me</h2>
             <div id="displayError">
 
             </div>
-            <form id="myform" onsubmit="return sendEmail();">
-                <div class="input-field">
-                    <label for="name" class="screen-reader-text">Name</label>
-                    <input type="text" placeholder="Enter Your Name" id="name">                    
+            <form id="myForm" onsubmit="return NewEmail();">
+                <div class="inputField">
+                    <label for="name" class="screenReaderText">Name</label>
+                    <input type="text" placeholder="Enter Your Name" id="name">
                 </div>
-                <div class="input-field">
-                    <label for="subject" class="screen-reader-text">Subject</label>
-                    <input type="text" placeholder="Email Subject" id="subject">                    
+                <div class="inputField">
+                    <label for="subject" class="screenReaderText">Subject</label>
+                    <input type="text" placeholder="Email Subject" id="subject">
                 </div>
-                <div class="input-field">
-                    <label for="email" class="screen-reader-text">Email</label>
-                    <input type="text" placeholder="Enter Your Email" id="email">                    
+                <div class="inputField">
+                    <label for="email" class="screenReaderText">Email</label>
+                    <input type="text" placeholder="Enter Your Email" id="email">
                 </div>
-                <div class="input-field">
-                    <label for="inquiry" class="screen-reader-text">Inquiry</label>
-                    <textarea placeholder="Enter Your Inquiry" id="inquiry"></textarea>                    
+                <div class="inputField">
+                    <label for="inquiry" class="screenReaderText">Inquiry</label>
+                    <textarea placeholder="Enter Your Inquiry" id="inquiry"></textarea>
                 </div>
                 <div class="btn">
-                    <label for="send-email" class="screen-reader-text">Send Email Button</label>
+                    <label for="send-email" class="screenReaderText">Send Email Button</label>
                     <input type="submit" value="Send Email" id="send-email">
-                    <label for="clear-form" class="screen-reader-text">Clear Form Button</label>
+                    <label for="clear-form" class="screenReaderText">Clear Form Button</label>
                     <input type="reset" value="Clear Form" id="clear-form">
                 </div>
             </form>

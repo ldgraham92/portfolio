@@ -1,11 +1,11 @@
-.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3, .my-info, h3.links, .objective, .education, .skills, .about-me, .job, .roles, html, .nav-bar, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form, .additional-1, .additional-2{
+.mainBodyContent, .additional1, .additional2, .project1, .project2, .project3, .myInfo, h3.links, .objective, .education, .skills, .aboutMe, .job, .roles, html, .navBar, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form, .additional1, .additional2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 body{
     font-family: 'Podkova', serif;
 }
 
-.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3, h3.links, .objective, .education, .skills, .about-me, .job, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form{
+.mainBodyContent, .additional1, .additional2, .project1, .project2, .project3, h3.links, .objective, .education, .skills, .aboutMe, .job, .formWrapper, #name, #subject, #email, #inquiry, #send-email, #clear-form{
     font-size: 1.9rem;
     letter-spacing: .125rem;
 }
@@ -13,7 +13,7 @@ body{
     font-size: 1rem;
     letter-spacing: .125rem;
 }
-.my-info{
+.myInfo{
     text-decoration: underline;
     text-align: center;
     font-size: 2.5rem;
@@ -38,7 +38,7 @@ body{
     letter-spacing: 0.1rem;
 }
 
-.my-links, .info-list{
+.myLinks, .infoList{
     list-style-type: none;
 }
 
@@ -50,7 +50,7 @@ footer.center{
     margin-top: 50px;
 }
 
-.main-body-content, .additional-1, .additional-2, .project-1, .project-2, .project-3{
+.mainBodyContent, .additional1, .additional2, .project1, .project2, .project3{
     text-decoration: underline;
 }
 /* DESKTOP */
@@ -71,7 +71,7 @@ footer.center{
     h3.job{
         font-size: 30px;
     }
-    .test{
+    .jobInfo{
         font-size: 16px;
         text-align: left;
         list-style-type: none;

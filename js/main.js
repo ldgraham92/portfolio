@@ -1,7 +1,7 @@
-let badWords = ["feldercarb", "frach", "skinjob", "vulgarcarb", "frack", "vulgacarb"]; // Array of words to not allow in
+let badWords = ["feldercarb", "skinjob", "frack", "vulgacarb"];  // Array of words to not allow in
 let badWordCount = 0;
 
-function populateEmail() { // Opens default mail client with pre-filled information from contact form
+function PopulateEmail() { // Opens default mail client with pre-filled information from contact form
   let userSubject = document.getElementById("subject").value;
   let contactName = document.getElementById("name").value;
   let contactInquiry = document.getElementById("inquiry").value;
@@ -9,7 +9,7 @@ function populateEmail() { // Opens default mail client with pre-filled informat
   window.open("mailto:faketest@fakemail.com?subject=" + userSubject + "&body=New%20Email%20From:%20" + contactName + "%0D%0A %0D%0A" + contactInquiry + "%0D%0A %0D%0A");
 }
 
-function sendEmail() { // Called when Send Email button is clicked on contact form
+function NewEmail() { // Called when Send Email button is clicked on contact form
   let contactName = document.getElementById("name").value;
   let userSubject = document.getElementById("subject").value;
   let contactInquiry = document.getElementById("inquiry").value;
@@ -50,7 +50,7 @@ function sendEmail() { // Called when Send Email button is clicked on contact fo
     z = 0;
   }
   if (z == 1){  // Calls the populate email function
-    populateEmail() 
+    PopulateEmail() 
   }
   else {
     return false;
